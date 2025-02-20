@@ -1,16 +1,23 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Form Validation</title>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <!-- action="submit-form.php" -->
+    <form action="submit-form.php" method="post">
+        <input type="text" placeholder="Enter Your Name" id="name">
+        <input type="email" placeholder="Email" id="mail">
+        <div>
+        <input type="checkbox" id="check" id="s1">
+        <label for="check">I accept the terms and conditions</label>
+        </div>
+        <button type="submit" id="btn">Submit</button>
 
+    </form>
+    <script src="form.js"></script>
 </body>
-
 </html>
